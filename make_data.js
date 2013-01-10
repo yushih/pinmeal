@@ -82,6 +82,11 @@ var parse = function (fn) {
 };
 
 var main = function () {
+    if (!process.argv[2]) {
+	console.log('give data file names');
+	process.exit();
+    }
+
     var meals = Array.prototype.concat.apply(
 	[],
 	process.argv.slice(2).map(parse)
