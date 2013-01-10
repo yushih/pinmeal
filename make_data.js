@@ -29,9 +29,9 @@ var parse_line = function (line) {
 	//filed name, index in split fields, validator/transformer
 	['date', 0, function (d) { return d.replace(/-/g, '.').match(/^201\d\.\d\d?\.\d\d?$/)[0]; }],
 	['time', 1, function (t) { return {'中餐': 'lunch', '晚餐': 'supper'}[t]; }],
-	['supplier', 2, function (s) { return s; }],
-	['name', 3, function (n) { return n; }],
-	['price', 4, function (p) { return parseFloat(p); }]
+	['supplier', 3, function (s) { return s; }],
+	['name', 4, function (n) { return n; }],
+	['price', 5, function (p) { return parseFloat(p); }]
     ];
 
     var res = {};
@@ -77,7 +77,7 @@ var parse = function (fn) {
 	    return l.length>0;
 	})
 	.map(parse_line);
-
+    console.log(res);
     return res;
 };
 
