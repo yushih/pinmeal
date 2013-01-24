@@ -121,6 +121,7 @@ $(function () {
 	});
 
 	$('#user_name').bind('keyup', function () {
+	    document.cookie = 'name='+$(this).val();
 	    gen_result();
 	});
     };
@@ -134,4 +135,9 @@ $(function () {
             return false;
 	});
     });
+
+    var m = document.cookie.match(/name=([^;]+)/);
+    if (m) {
+	$('#user_name').val(m[1]);
+    }
 });
