@@ -81,3 +81,5 @@ $(function () {
 	add_preview();
     });
 });
+
+//after adding to data clear preview and drop zone
