@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+    <script src="jquery.js"></script>
+    <script src="underscore.js"></script>
+    <script src="import.js"></script>
+    <style type="text/css">
+      #drop_zone { width: 500px; 
+                   height: 200px; }
+      #result { width: 500px;
+                height: 300px; }
+      #preview { width: 500px;
+                 height: 300px; }
+    </style>
+  </head>
+  <body>
+    <div id="dd">
+      <textarea id="drop_zone"></textarea>
+    </div>
+
+    <div>
+      供应商:<input type="text" id="supplier" />
+      价格:<input type="text" id="price" />
+      <button id="make_lunch">午餐</button>
+      <button id="make_supper">晚餐</button>
+    </div>
+
+    <div>
+      preview: <br/>
+      <textarea id="preview"></textarea>
+    </div>
+
+    <div>
+      <button id="add">加入菜单</button>
+    </div>
+
+    <div>
+      <textarea id="result"></textarea>
+    </div>
+  </body>
+</html>
+
