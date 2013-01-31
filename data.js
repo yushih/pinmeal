@@ -68,7 +68,7 @@
 {"date":"2013.02.05","time":"lunch","supplier":"久味","name":"卤水鸭块","price":"14.5"},
 {"date":"2013.02.06","time":"lunch","supplier":"久味","name":"酸菜青占鱼","price":"14.5"},
 {"date":"2013.02.07","time":"lunch","supplier":"久味","name":"酱鸭翅根","price":"14.5"},
-{"date":"2013.02.08","time":"lunch","supplier":"久味","name":"红烧狮子头","price":"14.5"}，
+    {"date":"2013.02.08","time":"lunch","supplier":"久味","name":"红烧狮子头","price":"14.5"},
     { name: '日式咖喱猪排饭', price: 11.8, supplier: '全家', date: '*', time:'lunch'},
   { name: '红烧狮子头饭', price: 10.8, supplier: '全家', date: '*', time:'lunch'},
   { name: '奥尔良鸡排饭', price: 10.8, supplier: '全家', date: '*', time:'lunch'},
