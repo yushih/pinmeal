@@ -6,7 +6,8 @@ $(function () {
     };
 
     var get_next_monday = function () {
-	var today = new Date;
+	var today = new Date(2013, 1, 16);
+	return today;
 	return get_date_after_days(today, (8-today.getDay())%7);
     };
 
