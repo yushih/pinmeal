@@ -105,6 +105,13 @@
 {"date":"2013.06.27","time":"supper","supplier":"农家菜","name":"粉蒸肉","price":"14.5"},
 {"date":"2013.06.28","time":"supper","supplier":"农家菜","name":"宫保鸡丁","price":"14.5"}]
 );
+(function () {
+    window.PINMEAL_DATA.forEach(function (d) {
+	if (d.price === '14.5') {
+	    d.price = '17';
+	}
+    });
+}());
 /*
 //in case date is screwed up, use this to fix
 (function () {
