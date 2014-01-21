@@ -13,7 +13,7 @@ $(function () {
 
 	var format_date = function (date) {
 	    var d = new Date(Date.parse(date));
-	    return ''+(d.getMonth()+1)+'月'+d.getDate()+'日 星期'+'日一二三四五六'[d.getDay()];
+	    return '星期'+'日一二三四五六'[d.getDay()];
 	};
 
 	var format_time = function (time) {
@@ -51,32 +51,32 @@ $(function () {
 	$('#items').append($(_.template(tmpl, {data: data, format_date: format_date, format_time: format_time, format_meal: format_meal})));
 	
 	var gen_result = function () {
+	    console.log(data);
 	    var user_name = $('#user_name').val();
 
 	    var txt = _.flatten(data.map(function (date_meal) {
 		return date_meal.meals.map(function (time_meal) {
 		    return {date: date_meal.date,
 			    time: time_meal.time,
-			    meal: time_meal.select};
+			    meal: time_meal.select,
+			    comment: time_meal.comment};
 		});
-	    })).filter(function (x) { return !!x.meal; })
+	    }))
 		.sort(function (a, b) {
-		    if (a.time==='lunch' && b.time==='supper') {
-			return -1;
-		    } else if (a.time==='supper' && b.time==='lunch') {
-			return 1;
+		    if (Date.parse(a.date) === Date.parse(b.date)) {
+
+			if (a.time==='lunch' && b.time==='supper') {
+			    return -1;
+			} else if (a.time==='supper' && b.time==='lunch') {
+			    return 1;
+			} 
 		    } else {
 			return Date.parse(a.date)-Date.parse(b.date);
 		    }
 		})
 		.map(function (m) {
-		    return [m.date, 
-			    format_time(m.time), 
-			    user_name, 
-			    m.meal.supplier, 
-			    m.meal.name, 
-			    m.meal.price].join('\t');
-		}).join('\n');
+		    return (!!m.meal ? m.meal.name : '')+' '+(m.comment||'');
+		}).join('\t');
 /*
 	    var txt = PINMEAL_DATA.filter(function (m) {
 		return m.select;
@@ -118,6 +118,23 @@ $(function () {
 
 	    gen_result();
 	    update_sum();
+	});
+
+	$('#items').delegate('.comment', 'input propertychange', function (event) {
+	    var e = $(this);
+	    console.log(e.attr('date'), e.attr('time'));
+	    var date_meal = _.find(data, function (date_meal) {
+		return date_meal.date===e.attr('date');
+	    });
+
+	    var time_meal = _.find(date_meal.meals, function (time_meal) {
+		return time_meal.time===e.attr('time');
+	    });
+
+	    time_meal.comment = e.val();
+
+	    gen_result();
+
 	});
 
 	$('#user_name').bind('keyup', function () {

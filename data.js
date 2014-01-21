@@ -1,70 +1,49 @@
-(window.PINMEAL_DATA=
-[{"date":"2013.08.05","time":"lunch","supplier":"久味","name":"素食","price":"17"},
-{"date":"2013.08.06","time":"lunch","supplier":"久味","name":"素食","price":"17"},
-{"date":"2013.08.07","time":"lunch","supplier":"久味","name":"素食","price":"17"},
-{"date":"2013.08.08","time":"lunch","supplier":"久味","name":"素食","price":"17"},
-{"date":"2013.08.09","time":"lunch","supplier":"久味","name":"素食","price":"17"},
-{"date":"2013.08.05","time":"lunch","supplier":"久味","name":"京都大排","price":"17"},
-{"date":"2013.08.06","time":"lunch","supplier":"久味","name":"鱿鱼红烧肉","price":"17"},
-{"date":"2013.08.07","time":"lunch","supplier":"久味","name":"久味烤鸭","price":"17"},
-{"date":"2013.08.08","time":"lunch","supplier":"久味","name":"响油鳝丝","price":"17"},
-{"date":"2013.08.09","time":"lunch","supplier":"久味","name":"西柠煎软鸡","price":"17"},
-{"date":"2013.08.05","time":"lunch","supplier":"久味","name":"毛豆炒童子鸡","price":"17"},
-{"date":"2013.08.06","time":"lunch","supplier":"久味","name":"脆皮鸡腿","price":"17"},
-{"date":"2013.08.07","time":"lunch","supplier":"久味","name":"广式盐焗鸡","price":"17"},
-{"date":"2013.08.08","time":"lunch","supplier":"久味","name":"椒盐排条","price":"17"},
-{"date":"2013.08.09","time":"lunch","supplier":"久味","name":"香熏鸭脯肉","price":"17"},
-{"date":"2013.08.05","time":"lunch","supplier":"久味","name":"青椒肚片","price":"17"},
-{"date":"2013.08.06","time":"lunch","supplier":"久味","name":"香烤鸭翅根","price":"17"},
-{"date":"2013.08.07","time":"lunch","supplier":"久味","name":"香辣虾","price":"17"},
-{"date":"2013.08.08","time":"lunch","supplier":"久味","name":"卤鸭","price":"17"},
-{"date":"2013.08.09","time":"lunch","supplier":"久味","name":"海霸王关东煮","price":"17"},
-{"date":"2013.08.05","time":"lunch","supplier":"江南粗菜","name":"剁椒豉油蒸排骨","price":"17"},
-{"date":"2013.08.06","time":"lunch","supplier":"江南粗菜","name":"八宝辣酱","price":"17"},
-{"date":"2013.08.07","time":"lunch","supplier":"江南粗菜","name":"干煸刀豆肉丝","price":"17"},
-{"date":"2013.08.08","time":"lunch","supplier":"江南粗菜","name":"川湘回锅肉","price":"17"},
-{"date":"2013.08.09","time":"lunch","supplier":"江南粗菜","name":"蒜苔肉丝","price":"17"},
-{"date":"2013.08.05","time":"lunch","supplier":"江南粗菜","name":"鱼香藕饼","price":"17"},
-{"date":"2013.08.06","time":"lunch","supplier":"江南粗菜","name":"牛杂烧土豆","price":"17"},
-{"date":"2013.08.07","time":"lunch","supplier":"江南粗菜","name":"红烧大肉","price":"17"},
-{"date":"2013.08.08","time":"lunch","supplier":"江南粗菜","name":"海鲜烩豆腐","price":"17"},
-{"date":"2013.08.09","time":"lunch","supplier":"江南粗菜","name":"宫保鸡丁","price":"17"},
-{"date":"2013.08.05","time":"lunch","supplier":"江南粗菜","name":"蚝油牛肉","price":"17"},
-{"date":"2013.08.06","time":"lunch","supplier":"江南粗菜","name":"韭菜虾仁炒蛋","price":"17"},
-{"date":"2013.08.07","time":"lunch","supplier":"江南粗菜","name":"芹菜炒鲜鱿","price":"17"},
-{"date":"2013.08.08","time":"lunch","supplier":"江南粗菜","name":"香炸鸡腿","price":"17"},
-{"date":"2013.08.09","time":"lunch","supplier":"江南粗菜","name":"百叶结刀板香","price":"17"},
-{"date":"2013.08.05","time":"supper","supplier":"久味","name":"糖醋鸡丁","price":"17"},
-{"date":"2013.08.06","time":"supper","supplier":"久味","name":"可乐鸡翅","price":"17"},
-{"date":"2013.08.07","time":"supper","supplier":"久味","name":"水晶鸡","price":"17"},
-{"date":"2013.08.08","time":"supper","supplier":"久味","name":"糖醋小排","price":"17"},
-{"date":"2013.08.09","time":"supper","supplier":"久味","name":"酱爆肉丁","price":"17"},
-{"date":"2013.08.05","time":"supper","supplier":"久味","name":"泰式烤肉","price":"17"},
-{"date":"2013.08.06","time":"supper","supplier":"久味","name":"奥尔良烤鸡","price":"17"},
-{"date":"2013.08.07","time":"supper","supplier":"久味","name":"杏鲍菇爆牛肉","price":"17"},
-{"date":"2013.08.08","time":"supper","supplier":"久味","name":"银牙鸡丝","price":"17"},
-{"date":"2013.08.09","time":"supper","supplier":"久味","name":"油爆虾","price":"17"},
-{"date":"2013.08.05","time":"supper","supplier":"久味","name":"烤麸冷面配荷包蛋","price":"17"},
-{"date":"2013.08.06","time":"supper","supplier":"久味","name":"意式海鲜面","price":"17"},
-{"date":"2013.08.07","time":"supper","supplier":"久味","name":"荠菜鲜肉虾肉馄饨","price":"17"},
-{"date":"2013.08.08","time":"supper","supplier":"久味","name":"上海冷面配黑胡椒牛肉饼","price":"17"},
-{"date":"2013.08.09","time":"supper","supplier":"久味","name":"草菇鲜肉馄饨","price":"17"},
-{"date":"2013.08.05","time":"supper","supplier":"江南粗菜","name":"川味辣爆骨","price":"17"},
-{"date":"2013.08.06","time":"supper","supplier":"江南粗菜","name":"西湘霸王鸭","price":"17"},
-{"date":"2013.08.07","time":"supper","supplier":"江南粗菜","name":"干锅牛杂","price":"17"},
-{"date":"2013.08.08","time":"supper","supplier":"江南粗菜","name":"毛血旺","price":"17"},
-{"date":"2013.08.09","time":"supper","supplier":"江南粗菜","name":"干锅花菜","price":"17"},
-{"date":"2013.08.05","time":"supper","supplier":"江南粗菜","name":"咖喱土豆鸡块","price":"17"},
-{"date":"2013.08.06","time":"supper","supplier":"江南粗菜","name":"大蒜香干炒咸肉","price":"17"},
-{"date":"2013.08.07","time":"supper","supplier":"江南粗菜","name":"银鱼跑蛋","price":"17"},
-{"date":"2013.08.08","time":"supper","supplier":"江南粗菜","name":"小炒肉","price":"17"},
-{"date":"2013.08.09","time":"supper","supplier":"江南粗菜","name":"青椒肉丝","price":"17"},
-{"date":"2013.08.05","time":"supper","supplier":"江南粗菜","name":"酸菜鱼","price":"17"},
-{"date":"2013.08.06","time":"supper","supplier":"江南粗菜","name":"五香小牛肉","price":"17"},
-{"date":"2013.08.07","time":"supper","supplier":"江南粗菜","name":"咖喱虾仁炒饭","price":"17"},
-{"date":"2013.08.08","time":"supper","supplier":"江南粗菜","name":"椒盐排条","price":"17"},
-{"date":"2013.08.09","time":"supper","supplier":"江南粗菜","name":"热拌夫妻肺片","price":"17"}]
-);
+(function () {
+    var subs = (
+	function () {/*
+随机
+香烤牛肉 (Roast Beef)
+火腿 (Ham)
+百味俱乐部 (Subway Club™)
+火鸡胸 (Turkey Breast)
+新鲜蔬菜 (Veggie Delite™)
+火鸡火腿 (Turkey Breast & Ham)
+培根 (BLT)
+意大利经典 (Italian B.M.T.™)
+金枪鱼 (Tuna)
+意大利香辣 (Spicy Italian) 
+奇士牛排 (Steak & Cheese)
+香烤鸡排 (Roasted Chicken)
+香葱照烤鸡排 (Chicken Teriyaki)
+香热奇士 (Subway Melt™)
+		     */
+	}
+    ).toString()
+	.match(/\/\*([^]+)\*\//m)[1]
+	.split('\n')
+	.filter(function (r) {
+	    return !!r.match(/(\S+)/);
+	})
+	.filter(function (r) {
+	    return r.match(/(\S.*\S)/)[1];
+	});
+
+    var meals = [];
+    var i;
+    ['lunch', 'supper'].forEach(function (time) {
+	for (i=0; i<5; i++) {
+	    Array.prototype.push.apply(meals, subs.map(function (s) {
+		return {date: '2013.08.0'+(5+i),
+			time: time,
+			supplier: 'Subway',
+			name: s,
+			price: 0};
+	    }));
+	}
+    });
+    window.PINMEAL_DATA = meals;
+
+}());
 /*
 //in case date is screwed up, use this to fix
 (function () {

@@ -12,10 +12,10 @@
       .warning { color: red; }
       #menu { 
        float: left; 
-       width: 300px;
+       width: 500px;
       }
       #result {
-       margin-left: 320px;
+       margin-left: 520px;
        width: 420px;
       }
       textarea {
@@ -64,9 +64,13 @@
 	      <label><%= format_time(time_meals.time) %></label>
 	      <select>
 		<% time_meals.meals.forEach(function (meal, i) { %>
+		<!--fixme: put the "data" and "time" attributes on parental div -->
                 <option date="<%= date_meals.date %>"  time="<%= time_meals.time %>" index="<%= i %>"><%= format_meal(meal) %></option>
 		<% }) %>
 	      </select>
+	      <span>备注</span>
+	      <!--fixme: put the "data" and "time" attributes on parental div -->
+	      <input date="<%= date_meals.date %>"  time="<%= time_meals.time %>" type="text" class="comment"></input>
 	    </div>
 	    <% }); %>
 	  </div>
